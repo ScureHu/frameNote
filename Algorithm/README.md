@@ -1,6 +1,7 @@
-# 今天开始在这里记录我每天的算法记录 （2018/10/17）
+# 今天开始在这里记录我每天的算法记录 （2018/10/17）(JAVA实现)
 
-## 排序算法（2018/10/17）
+## 排序算法
 
-冒泡排序
-
+  这里就不解释排序算法的思路只有代码的实现
+  
+  #### -->[冒泡排序](https://github.com/ScureHu/frameNote/edit/master/Algorithm/sort/BubbleSort.java)
