@@ -6,6 +6,7 @@
  * 
  * 随机快排的期望空间复杂度为O(N*logN)
  * 空间复杂度为O(logN)
+ * 不稳定
  * @author Scure
  *
  */
