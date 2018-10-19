@@ -10,3 +10,6 @@
   ##### -->[归并排序代码实现](https://github.com/ScureHu/frameNote/edit/master/Algorithm/sort/MergerSort.java)
   ##### -->[堆排序代码实现](https://github.com/ScureHu/frameNote/edit/master/Algorithm/sort/HeapSort.java)
   ##### -->[快速排序代码实现](https://github.com/ScureHu/frameNote/edit/master/Algorithm/sort/QuickSort.java)
+  
+## 排序算法衍生的题目
+  ##### -->[小和问题]()
