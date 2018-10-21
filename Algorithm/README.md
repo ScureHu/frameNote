@@ -16,5 +16,5 @@
   
 ## 数据结构的简单实现
 
-  ##### -->[队列的实现]()
-  ##### -->[栈的实现]()
+  ##### -->[队列的实现](https://github.com/ScureHu/frameNote/blob/master/Algorithm/DataStructure/Queue.java)
+  ##### -->[栈的实现](https://github.com/ScureHu/frameNote/blob/master/Algorithm/DataStructure/Stack.java)
