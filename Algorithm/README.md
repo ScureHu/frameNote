@@ -12,4 +12,4 @@
   ##### -->[快速排序代码实现](https://github.com/ScureHu/frameNote/edit/master/Algorithm/sort/QuickSort.java)
   
 ## 排序算法衍生的题目
-  ##### -->[小和问题]()
+  ##### -->[小和问题](https://github.com/ScureHu/frameNote/blob/master/Algorithm/problem/SmallSum.md)
