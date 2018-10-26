@@ -14,9 +14,10 @@
 ## 排序算法衍生的题目
   ##### -->[小和问题](https://github.com/ScureHu/frameNote/blob/master/Algorithm/problem/SmallSum.md)
   
-## 数据结构的简单实现
+## 数据结构题目
 
   ##### -->[队列的实现](https://github.com/ScureHu/frameNote/blob/master/Algorithm/DataStructure/Queue.java)
   ##### -->[栈的实现](https://github.com/ScureHu/frameNote/blob/master/Algorithm/DataStructure/Stack.java)
   ##### -->[使用栈实现队列](https://github.com/ScureHu/frameNote/blob/master/Algorithm/DataStructure/TwoStacksQueue.java)
   ##### -->[使用队列实现栈](https://github.com/ScureHu/frameNote/blob/master/Algorithm/DataStructure/TwoQueueStack.java)
+  ##### -->[使用队列实现栈](https://github.com/ScureHu/frameNote/blob/master/Algorithm/DataStructure/GetMinStack.md)
