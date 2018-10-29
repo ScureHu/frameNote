@@ -17,8 +17,8 @@
 ### Hibernate的框架体系
 ![](https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=1913819471,1519777660&fm=26&gp=0.jpg)
 ## 进一步认识Hibernate
-#### ---->[写一个简单的DEMO来进一步认识一下Hibernate](https://github.com/ScureHu/hibernate/blob/master/hibernate/Demo.md)
-#### ---->[Hibernate API介绍和缓存机制](https://github.com/ScureHu/hibernate/blob/master/hibernate/API.md)
-#### ---->[Hibernate的事务操作与session与线程的绑定](https://github.com/ScureHu/hibernate/blob/master/hibernate/Transaction.md)
-#### ---->[Hibernate的多表关系和映射文件配置](https://github.com/ScureHu/hibernate/blob/master/hibernate/table.md)
-#### ---->[Hibernate的多表级联操作](https://github.com/ScureHu/hibernate/blob/master/hibernate/tableRelation.md)
+#### ---->[写一个简单的DEMO来进一步认识一下Hibernate](https://github.com/ScureHu/frameNote/blob/master/Hibernate/Demo.md)
+#### ---->[Hibernate API介绍和缓存机制](https://github.com/ScureHu/frameNote/blob/master/Hibernate/API.md)
+#### ---->[Hibernate的事务操作与session与线程的绑定](https://github.com/ScureHu/frameNote/blob/master/Hibernate/Transaction.md)
+#### ---->[Hibernate的多表关系和映射文件配置](https://github.com/ScureHu/frameNote/blob/master/Hibernate/table.md)
+#### ---->[Hibernate的多表级联操作](https://github.com/ScureHu/frameNote/blob/master/Hibernate/tableRelation.md)
