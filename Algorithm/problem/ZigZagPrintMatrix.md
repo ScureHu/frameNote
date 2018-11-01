@@ -15,12 +15,13 @@
 
 ### 解题思路
 
+- 根据题目要求,我们可以斜着打印所有的点，加一个flag来判断打印的次序，是从右上打印到左下，还是从左下打印到右上
 
 ### 代码实现
 
 ```java
 public class ZigZagPrintMatrix {
-
+	//主思路
 	public static void printMatrixZigZag(int[][] matrix) {
 		int tR = 0;
 		int tC = 0;
@@ -29,8 +30,11 @@ public class ZigZagPrintMatrix {
 		int endR = matrix.length - 1;
 		int endC = matrix[0].length - 1;
 		boolean fromUp = false;
+		//直到（tR,tC）移动矩阵的最右下角的点
 		while (tR != endR + 1) {
 			printLevel(matrix, tR, tC, dR, dC, fromUp);
+			//(tR,tC)坐标一直沿着tC往左边走，走到底往下走
+			//(dC,dR)坐标一直沿着tR往下走，走到底往右走
 			tR = tC == endC ? tR + 1 : tR;
 			tC = tC == endC ? tC : tC + 1;
 			dC = dR == endR ? dC + 1 : dC;
@@ -40,17 +44,17 @@ public class ZigZagPrintMatrix {
 	}
 	/**
 	 * 打印点
-	 * @param m
-	 * @param tR
-	 * @param tC
-	 * @param dR
-	 * @param dC
-	 * @param f
+	 * @param m 矩阵
+	 * @param tR 
+	 * @param tC 
+	 * @param dR 
+	 * @param dC 
+	 * @param f 打印顺序
 	 */
 	public static void printLevel(int[][] m, int tR, int tC, int dR, int dC, boolean f) {
 		// 打印的顺序
 		if (f) {
-			// 移动的点能斜着移动到坐下角
+			// 移动的点能斜着移动到左下角
 			while (tR != dR + 1) {
 				System.out.print(m[tR++][tC--] + " ");
 			}
