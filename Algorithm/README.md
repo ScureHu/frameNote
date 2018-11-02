@@ -27,4 +27,6 @@
   ##### -->[转圈打印矩阵](https://github.com/ScureHu/frameNote/blob/master/Algorithm/problem/PrintMatrixSpiralOrder.md)
   ##### -->[旋转正方形矩阵](https://github.com/ScureHu/frameNote/blob/master/Algorithm/problem/RotateMatrix.md) 
   ##### -->["之"字型打印矩阵](https://github.com/ScureHu/frameNote/blob/master/Algorithm/problem/ZigZagPrintMatrix.md)
+  ##### -->[在行列都排好序的矩阵中找数](https://github.com/ScureHu/frameNote/blob/master/Algorithm/problem/FindNumInSortedMatrix.md)
+ 
 
