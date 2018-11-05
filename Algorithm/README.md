@@ -22,7 +22,8 @@
   ##### -->[使用队列实现栈](https://github.com/ScureHu/frameNote/blob/master/Algorithm/DataStructure/TwoQueueStack.java)
   ##### -->[取栈中最小值](https://github.com/ScureHu/frameNote/blob/master/Algorithm/DataStructure/GetMinStack.md)
   ##### -->[反转单双向链表](https://github.com/ScureHu/frameNote/blob/master/Algorithm/problem/ReverseList.md)
-  
+  ##### -->[判断一个链表是否为回文结构](https://github.com/ScureHu/frameNote/blob/master/Algorithm/DataStructure/IsPalindromeList.md)
+
 ## 题目
   ##### -->[转圈打印矩阵](https://github.com/ScureHu/frameNote/blob/master/Algorithm/problem/PrintMatrixSpiralOrder.md)
   ##### -->[旋转正方形矩阵](https://github.com/ScureHu/frameNote/blob/master/Algorithm/problem/RotateMatrix.md) 
