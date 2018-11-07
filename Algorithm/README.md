@@ -23,6 +23,7 @@
   ##### -->[取栈中最小值](https://github.com/ScureHu/frameNote/blob/master/Algorithm/DataStructure/GetMinStack.md)
   ##### -->[反转单双向链表](https://github.com/ScureHu/frameNote/blob/master/Algorithm/problem/ReverseList.md)
   ##### -->[判断一个链表是否为回文结构](https://github.com/ScureHu/frameNote/blob/master/Algorithm/DataStructure/IsPalindromeList.md)
+  ##### -->[单向链表划值](https://github.com/ScureHu/frameNote/blob/master/Algorithm/DataStructure/SmallerEqualBigger.md)
 
 ## 题目
   ##### -->[转圈打印矩阵](https://github.com/ScureHu/frameNote/blob/master/Algorithm/problem/PrintMatrixSpiralOrder.md)
@@ -30,5 +31,5 @@
   ##### -->["之"字型打印矩阵](https://github.com/ScureHu/frameNote/blob/master/Algorithm/problem/ZigZagPrintMatrix.md)
   ##### -->[在行列都排好序的矩阵中找数](https://github.com/ScureHu/frameNote/blob/master/Algorithm/problem/FindNumInSortedMatrix.md)
   ##### -->[打印两个有序链表的公共部分](https://github.com/ScureHu/frameNote/blob/master/Algorithm/problem/PrintCommonPart.md)
-  ##### -->[单向链表划值](https://github.com/ScureHu/frameNote/blob/master/Algorithm/DataStructure/SmallerEqualBigger.md)
+ 
 
