@@ -24,6 +24,7 @@
   ##### -->[反转单双向链表](https://github.com/ScureHu/frameNote/blob/master/Algorithm/problem/ReverseList.md)
   ##### -->[判断一个链表是否为回文结构](https://github.com/ScureHu/frameNote/blob/master/Algorithm/DataStructure/IsPalindromeList.md)
   ##### -->[单向链表划值](https://github.com/ScureHu/frameNote/blob/master/Algorithm/DataStructure/SmallerEqualBigger.md)
+  ##### -->[先中后遍历二叉树](https://github.com/ScureHu/frameNote/blob/master/Algorithm/DataStructure/PreInPosTraversal.md)
 
 ## 题目
   ##### -->[转圈打印矩阵](https://github.com/ScureHu/frameNote/blob/master/Algorithm/problem/PrintMatrixSpiralOrder.md)
