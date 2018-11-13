@@ -26,6 +26,7 @@
   ##### -->[单向链表划值](https://github.com/ScureHu/frameNote/blob/master/Algorithm/DataStructure/SmallerEqualBigger.md)
   ##### -->[先中后遍历二叉树](https://github.com/ScureHu/frameNote/blob/master/Algorithm/DataStructure/PreInPosTraversal.md)
   ##### -->[在二叉树中找到一个节点的后继结点](https://github.com/ScureHu/frameNote/blob/master/Algorithm/DataStructure/SuccessorNode.md)
+  ##### -->[二叉树的序列化和反序列化](https://github.com/ScureHu/frameNote/blob/master/Algorithm/DataStructure/SerializeAndReconstructTree.md)
 
 ## 题目
   ##### -->[转圈打印矩阵](https://github.com/ScureHu/frameNote/blob/master/Algorithm/problem/PrintMatrixSpiralOrder.md)
