@@ -1,0 +1,204 @@
+--------------------------------------------patient模块 start--------------------------------------------
+//查询br列表
+url:/patient/search/{page}/{size}
+method:post
+response:{
+	code:
+	message:
+	data:{
+		[],[],[]
+	}
+}
+//获取单个br的信息
+url:/patient/{id}
+method:get
+response:{
+	code:
+	message:
+	data:{
+		[]
+	}
+}
+//病人出院
+url:/patient/{id}
+method：delete
+response:{
+	code:
+	message:
+	data:{
+		[]
+	}
+}
+//入院评估单
+url：/patient/sheet
+method:post
+response:{
+	code:
+	message:
+	data:{
+		[]
+	}
+}
+//出院评估单
+url：/patient/sheet
+method:post
+response:{
+	code:
+	message:
+	data:{
+		[]
+	}
+}
+--------------------------------------------patient模块 end--------------------------------------------
+
+--------------------------------------------nurse模块 start--------------------------------------------
+//用户登录
+url:/nurse/login
+method:post
+参数：username，password
+respnse:{
+	code:
+	message:
+	data:{
+		
+	}
+}
+
+--------------------------------------------nurse模块 end--------------------------------------------
+
+--------------------------------------------order模块 start--------------------------------------------
+//医嘱拆分
+url:/order/split
+参数：userid，date，order类型
+method:post
+response:{
+	code:
+	message:
+	data:{
+		
+	}
+}
+//医嘱执行
+url:/order/execute/{id}
+参数：医嘱id
+method:get
+response:{
+	code:
+	message:
+	data:{
+		
+	}
+}
+//查询患者的医嘱列表（拆）
+url:/order/{id}
+method:get
+response:{
+	code:
+	message:
+	data:{
+		
+	}
+}
+//查询患者的医嘱执行列表（拆）
+url:/order/executeDetail/{id}
+method:get
+response:{
+	code:
+	message:
+	data:{
+		
+	}
+}
+--------------------------------------------order模块 end--------------------------------------------
+
+--------------------------------------------sign模块 start--------------------------------------------
+//普通体温录入
+url:/sign/temperature/
+method:post
+response:{
+	code:
+	message:
+	data:{
+		
+	}
+}
+//体温修改
+url:/sign/temperature/
+method:put
+response:{
+	code:
+	message:
+	data:{
+		
+	}
+}
+//血糖的录入
+url:/sign/bloodsugar/
+method:post
+response:{
+	code:
+	message:
+	data:{
+		
+	}
+}
+//血糖的修改
+url:/sign/bloodsugar/
+method:put
+response:{
+	code:
+	message:
+	data:{
+		
+	}
+}
+--------------------------------------------sign模块 end--------------------------------------------
+
+--------------------------------------------processes模块 start--------------------------------------------
+//护理记录单，记录
+url:/processes/record/
+参数:
+method:post
+response:{
+	code:
+	message:
+	data:{
+		
+	}
+}
+//护理记录单修改
+url:/processes/record/
+参数:
+method:put
+response:{
+	code:
+	message:
+	data:{
+		
+	}
+}
+
+//护理记录单查询
+url:/processes/record/{id}
+参数:
+method:get
+response:{
+	code:
+	message:
+	data:{
+		
+	}
+}
+
+//护理记录单查询
+url:/processes/record/{id}
+参数:
+method:get
+response:{
+	code:
+	message:
+	data:{
+		
+	}
+}
+--------------------------------------------processes模块 end--------------------------------------------
