@@ -1,0 +1,98 @@
+---------------------------------表结构（br) start----------------------------------
+uuid 病人Id
+wardcode 病区
+bedNo 床位号
+name 病人姓名
+sex 性别
+birthday 生日
+age 年龄
+nursing_Level 护理等级
+diagnosis 诊断
+attnDoctor 主治医生
+inAdmitTime 住院时间
+outAdmitTime 出院时间
+idNo 身份证号
+homeAddress 家庭住址
+contactName 联系人姓名
+contactPhone 联系人电话
+status 病人状态(出/住)
+height 身高
+weight 体重
+depetCode 部门编号
+---------------------------------表结构（br) end----------------------------------
+
+---------------------------------表结构（病区) start----------------------------------
+wardcode 病区
+bedNo 床位号
+parentId 病人Id
+status 床位状态 (用/不用)
+---------------------------------表结构（病区) end----------------------------------
+---------------------------------表结构（医嘱执行计划) start----------------------------------
+plan_id 计划Id
+plan_time 计划执行时间
+execute_time 执行时间
+finish_time 结束时间
+execute_id 执行人
+execute_name 执行人姓名
+parentId 病人Id
+hisOrderId 医嘱唯一号
+hisGroupNo 医嘱组号
+start_time 医嘱开始时间
+end_time 医嘱结束时间
+supplycode 给药方式
+orderClass 医嘱类型
+doctorName 开嘱医生
+doseUnit 计量单位
+frequence 频率
+status 状态
+splitTime 拆分时间
+splitName 拆分人
+drugName 药物名称
+remark 备注
+---------------------------------表结构（医嘱执行计划) end----------------------------------
+
+---------------------------------表结构（原始医嘱) start----------------------------------
+parentId 病人Id
+hisOrderId 医嘱唯一号
+hisGroupNo 医嘱组号
+start_time 医嘱开始时间
+end_time 医嘱结束时间
+supplycode 给药方式
+orderClass 医嘱类型
+doctorName 开嘱医生
+doseUnit 计量单位
+frequence 频率
+status 状态
+splitTime 拆分时间
+splitName 拆分人
+drugName 药物名称
+remark 备注
+---------------------------------表结构（原始医嘱) end----------------------------------
+
+
+---------------------------------表结构（体征) start----------------------------------
+uuid 主键
+parentId 病人Id
+parentName 病人名称
+wardCode 病区号
+measureTime 测量时间点
+recordTime 体征的录入时间
+vitalsignType 体征类型的代码 1->体温 2->脉搏 3->心率
+unit 体征单位
+remark 备注
+source 数据来源
+recordNurseId 记录人代码
+recordNurseName 记录人名称
+护理级别
+---------------------------------表结构（体征) end----------------------------------
+
+---------------------------------表结构（护士信息) start--------------------------------
+nurseId 护士Id
+nursename 护士姓名
+sex 性别
+nurseCode 护士工号
+---------------------------------表结构（护士信息) end----------------------------------
+
+---------------------------------表结构（血糖信息) start----------------------------------
+
+---------------------------------表结构（血糖信息) end----------------------------------
